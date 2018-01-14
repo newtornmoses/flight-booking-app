@@ -1,0 +1,928 @@
+{
+  "currency" : "AED",
+  "results" : [ {
+    "itineraries" : [ {
+      "outbound" : {
+        "flights" : [ {
+          "departs_at" : "2017-12-25T01:55",
+          "arrives_at" : "2017-12-25T22:30",
+          "origin" : {
+            "airport" : "DXB",
+            "terminal" : "3"
+          },
+          "destination" : {
+            "airport" : "SYD",
+            "terminal" : "1"
+          },
+          "marketing_airline" : "QF",
+          "operating_airline" : "EK",
+          "flight_number" : "8414",
+          "aircraft" : "388",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "O",
+            "seats_remaining" : 9
+          }
+        } ]
+      },
+      "inbound" : {
+        "flights" : [ {
+          "departs_at" : "2017-12-30T22:00",
+          "arrives_at" : "2017-12-30T23:35",
+          "origin" : {
+            "airport" : "SYD",
+            "terminal" : "3"
+          },
+          "destination" : {
+            "airport" : "MEL",
+            "terminal" : "1"
+          },
+          "marketing_airline" : "QF",
+          "operating_airline" : "QF",
+          "flight_number" : "497",
+          "aircraft" : "73H",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "O",
+            "seats_remaining" : 9
+          }
+        }, {
+          "departs_at" : "2017-12-31T06:00",
+          "arrives_at" : "2017-12-31T13:05",
+          "origin" : {
+            "airport" : "MEL",
+            "terminal" : "2"
+          },
+          "destination" : {
+            "airport" : "DXB",
+            "terminal" : "3"
+          },
+          "marketing_airline" : "QF",
+          "operating_airline" : "EK",
+          "flight_number" : "8409",
+          "aircraft" : "77W",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "O",
+            "seats_remaining" : 9
+          }
+        } ]
+      }
+    } ],
+    "fare" : {
+      "total_price" : "5005.00",
+      "price_per_adult" : {
+        "total_fare" : "5005.00",
+        "tax" : "2075.00"
+      },
+      "restrictions" : {
+        "refundable" : true,
+        "change_penalties" : true
+      }
+    }
+  }, {
+    "itineraries" : [ {
+      "outbound" : {
+        "flights" : [ {
+          "departs_at" : "2017-12-25T19:30",
+          "arrives_at" : "2017-12-25T20:50",
+          "origin" : {
+            "airport" : "XNB"
+          },
+          "destination" : {
+            "airport" : "AUH",
+            "terminal" : "1"
+          },
+          "marketing_airline" : "EY",
+          "operating_airline" : "EY",
+          "flight_number" : "5425",
+          "aircraft" : "BUS",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "E",
+            "seats_remaining" : 7
+          }
+        }, {
+          "departs_at" : "2017-12-25T22:25",
+          "arrives_at" : "2017-12-26T19:35",
+          "origin" : {
+            "airport" : "AUH",
+            "terminal" : "3"
+          },
+          "destination" : {
+            "airport" : "SYD",
+            "terminal" : "1"
+          },
+          "marketing_airline" : "EY",
+          "operating_airline" : "EY",
+          "flight_number" : "454",
+          "aircraft" : "388",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "E",
+            "seats_remaining" : 7
+          }
+        } ]
+      },
+      "inbound" : {
+        "flights" : [ {
+          "departs_at" : "2017-12-30T16:20",
+          "arrives_at" : "2017-12-31T00:05",
+          "origin" : {
+            "airport" : "SYD",
+            "terminal" : "1"
+          },
+          "destination" : {
+            "airport" : "AUH",
+            "terminal" : "3"
+          },
+          "marketing_airline" : "EY",
+          "operating_airline" : "EY",
+          "flight_number" : "451",
+          "aircraft" : "388",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "E",
+            "seats_remaining" : 7
+          }
+        }, {
+          "departs_at" : "2017-12-31T01:00",
+          "arrives_at" : "2017-12-31T02:20",
+          "origin" : {
+            "airport" : "AUH",
+            "terminal" : "1"
+          },
+          "destination" : {
+            "airport" : "XNB"
+          },
+          "marketing_airline" : "EY",
+          "operating_airline" : "EY",
+          "flight_number" : "5412",
+          "aircraft" : "BUS",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "E",
+            "seats_remaining" : 7
+          }
+        } ]
+      }
+    } ],
+    "fare" : {
+      "total_price" : "5045.00",
+      "price_per_adult" : {
+        "total_fare" : "5045.00",
+        "tax" : "2075.00"
+      },
+      "restrictions" : {
+        "refundable" : false,
+        "change_penalties" : true
+      }
+    }
+  }, {
+    "itineraries" : [ {
+      "outbound" : {
+        "flights" : [ {
+          "departs_at" : "2017-12-25T01:55",
+          "arrives_at" : "2017-12-25T22:30",
+          "origin" : {
+            "airport" : "DXB",
+            "terminal" : "3"
+          },
+          "destination" : {
+            "airport" : "SYD",
+            "terminal" : "1"
+          },
+          "marketing_airline" : "EK",
+          "operating_airline" : "EK",
+          "flight_number" : "414",
+          "aircraft" : "388",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "T",
+            "seats_remaining" : 9
+          }
+        } ]
+      },
+      "inbound" : {
+        "flights" : [ {
+          "departs_at" : "2017-12-30T06:00",
+          "arrives_at" : "2017-12-30T13:20",
+          "origin" : {
+            "airport" : "SYD",
+            "terminal" : "1"
+          },
+          "destination" : {
+            "airport" : "DXB",
+            "terminal" : "3"
+          },
+          "marketing_airline" : "EK",
+          "operating_airline" : "EK",
+          "flight_number" : "415",
+          "aircraft" : "388",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "T",
+            "seats_remaining" : 9
+          }
+        } ]
+      }
+    } ],
+    "fare" : {
+      "total_price" : "5495.00",
+      "price_per_adult" : {
+        "total_fare" : "5495.00",
+        "tax" : "2015.00"
+      },
+      "restrictions" : {
+        "refundable" : false,
+        "change_penalties" : true
+      }
+    }
+  }, {
+    "itineraries" : [ {
+      "outbound" : {
+        "flights" : [ {
+          "departs_at" : "2017-12-25T17:55",
+          "arrives_at" : "2017-12-26T05:00",
+          "origin" : {
+            "airport" : "DXB",
+            "terminal" : "1"
+          },
+          "destination" : {
+            "airport" : "HKG",
+            "terminal" : "1"
+          },
+          "marketing_airline" : "CX",
+          "operating_airline" : "CX",
+          "flight_number" : "746",
+          "aircraft" : "333",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "S",
+            "seats_remaining" : 9
+          }
+        }, {
+          "departs_at" : "2017-12-26T08:55",
+          "arrives_at" : "2017-12-26T20:55",
+          "origin" : {
+            "airport" : "HKG",
+            "terminal" : "1"
+          },
+          "destination" : {
+            "airport" : "SYD",
+            "terminal" : "1"
+          },
+          "marketing_airline" : "CX",
+          "operating_airline" : "CX",
+          "flight_number" : "139",
+          "aircraft" : "77W",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "S",
+            "seats_remaining" : 9
+          }
+        } ]
+      },
+      "inbound" : {
+        "flights" : [ {
+          "departs_at" : "2017-12-30T08:40",
+          "arrives_at" : "2017-12-30T15:05",
+          "origin" : {
+            "airport" : "SYD",
+            "terminal" : "1"
+          },
+          "destination" : {
+            "airport" : "HKG",
+            "terminal" : "1"
+          },
+          "marketing_airline" : "CX",
+          "operating_airline" : "CX",
+          "flight_number" : "110",
+          "aircraft" : "333",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "L",
+            "seats_remaining" : 6
+          }
+        }, {
+          "departs_at" : "2017-12-30T16:55",
+          "arrives_at" : "2017-12-30T22:15",
+          "origin" : {
+            "airport" : "HKG",
+            "terminal" : "1"
+          },
+          "destination" : {
+            "airport" : "DXB",
+            "terminal" : "1"
+          },
+          "marketing_airline" : "CX",
+          "operating_airline" : "CX",
+          "flight_number" : "731",
+          "aircraft" : "333",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "L",
+            "seats_remaining" : 6
+          }
+        } ]
+      }
+    } ],
+    "fare" : {
+      "total_price" : "5595.00",
+      "price_per_adult" : {
+        "total_fare" : "5595.00",
+        "tax" : "1415.00"
+      },
+      "restrictions" : {
+        "refundable" : true,
+        "change_penalties" : true
+      }
+    }
+  }, {
+    "itineraries" : [ {
+      "outbound" : {
+        "flights" : [ {
+          "departs_at" : "2017-12-25T01:55",
+          "arrives_at" : "2017-12-25T12:45",
+          "origin" : {
+            "airport" : "DXB",
+            "terminal" : "1"
+          },
+          "destination" : {
+            "airport" : "CAN"
+          },
+          "marketing_airline" : "CZ",
+          "operating_airline" : "CZ",
+          "flight_number" : "384",
+          "aircraft" : "330",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "L",
+            "seats_remaining" : 9
+          }
+        }, {
+          "departs_at" : "2017-12-25T18:20",
+          "arrives_at" : "2017-12-26T06:45",
+          "origin" : {
+            "airport" : "CAN"
+          },
+          "destination" : {
+            "airport" : "SYD",
+            "terminal" : "1"
+          },
+          "marketing_airline" : "CZ",
+          "operating_airline" : "CZ",
+          "flight_number" : "601",
+          "aircraft" : "330",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "V",
+            "seats_remaining" : 9
+          }
+        } ]
+      },
+      "inbound" : {
+        "flights" : [ {
+          "departs_at" : "2017-12-30T08:25",
+          "arrives_at" : "2017-12-30T14:55",
+          "origin" : {
+            "airport" : "SYD",
+            "terminal" : "1"
+          },
+          "destination" : {
+            "airport" : "CAN"
+          },
+          "marketing_airline" : "CZ",
+          "operating_airline" : "CZ",
+          "flight_number" : "602",
+          "aircraft" : "330",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "A",
+            "seats_remaining" : 9
+          }
+        }, {
+          "departs_at" : "2017-12-30T18:30",
+          "arrives_at" : "2017-12-30T23:35",
+          "origin" : {
+            "airport" : "CAN"
+          },
+          "destination" : {
+            "airport" : "DXB",
+            "terminal" : "1"
+          },
+          "marketing_airline" : "CZ",
+          "operating_airline" : "CZ",
+          "flight_number" : "383",
+          "aircraft" : "330",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "E",
+            "seats_remaining" : 7
+          }
+        } ]
+      }
+    } ],
+    "fare" : {
+      "total_price" : "5755.00",
+      "price_per_adult" : {
+        "total_fare" : "5755.00",
+        "tax" : "1595.00"
+      },
+      "restrictions" : {
+        "refundable" : true,
+        "change_penalties" : true
+      }
+    }
+  }, {
+    "itineraries" : [ {
+      "outbound" : {
+        "flights" : [ {
+          "departs_at" : "2017-12-25T20:00",
+          "arrives_at" : "2017-12-26T07:15",
+          "origin" : {
+            "airport" : "DXB",
+            "terminal" : "1"
+          },
+          "destination" : {
+            "airport" : "SIN",
+            "terminal" : "0"
+          },
+          "marketing_airline" : "SQ",
+          "operating_airline" : "SQ",
+          "flight_number" : "495",
+          "aircraft" : "77W",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "H",
+            "seats_remaining" : 7
+          }
+        }, {
+          "departs_at" : "2017-12-26T20:40",
+          "arrives_at" : "2017-12-27T07:40",
+          "origin" : {
+            "airport" : "SIN",
+            "terminal" : "3"
+          },
+          "destination" : {
+            "airport" : "SYD",
+            "terminal" : "1"
+          },
+          "marketing_airline" : "SQ",
+          "operating_airline" : "SQ",
+          "flight_number" : "221",
+          "aircraft" : "388",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "H",
+            "seats_remaining" : 7
+          }
+        } ]
+      },
+      "inbound" : {
+        "flights" : [ {
+          "departs_at" : "2017-12-30T19:10",
+          "arrives_at" : "2017-12-31T00:20",
+          "origin" : {
+            "airport" : "SYD",
+            "terminal" : "1"
+          },
+          "destination" : {
+            "airport" : "SIN",
+            "terminal" : "0"
+          },
+          "marketing_airline" : "SQ",
+          "operating_airline" : "SQ",
+          "flight_number" : "242",
+          "aircraft" : "77W",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "M",
+            "seats_remaining" : 9
+          }
+        }, {
+          "departs_at" : "2017-12-31T15:05",
+          "arrives_at" : "2017-12-31T18:45",
+          "origin" : {
+            "airport" : "SIN",
+            "terminal" : "3"
+          },
+          "destination" : {
+            "airport" : "DXB",
+            "terminal" : "1"
+          },
+          "marketing_airline" : "SQ",
+          "operating_airline" : "SQ",
+          "flight_number" : "494",
+          "aircraft" : "77W",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "M",
+            "seats_remaining" : 9
+          }
+        } ]
+      }
+    } ],
+    "fare" : {
+      "total_price" : "6255.00",
+      "price_per_adult" : {
+        "total_fare" : "6255.00",
+        "tax" : "535.00"
+      },
+      "restrictions" : {
+        "refundable" : false,
+        "change_penalties" : true
+      }
+    }
+  }, {
+    "itineraries" : [ {
+      "outbound" : {
+        "flights" : [ {
+          "departs_at" : "2017-12-25T21:40",
+          "arrives_at" : "2017-12-26T06:50",
+          "origin" : {
+            "airport" : "DXB",
+            "terminal" : "1"
+          },
+          "destination" : {
+            "airport" : "BKK"
+          },
+          "marketing_airline" : "TG",
+          "operating_airline" : "TG",
+          "flight_number" : "518",
+          "aircraft" : "777",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "M",
+            "seats_remaining" : 9
+          }
+        }, {
+          "departs_at" : "2017-12-26T17:50",
+          "arrives_at" : "2017-12-27T07:10",
+          "origin" : {
+            "airport" : "BKK"
+          },
+          "destination" : {
+            "airport" : "SYD",
+            "terminal" : "1"
+          },
+          "marketing_airline" : "TG",
+          "operating_airline" : "TG",
+          "flight_number" : "475",
+          "aircraft" : "747",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "M",
+            "seats_remaining" : 9
+          }
+        } ]
+      },
+      "inbound" : {
+        "flights" : [ {
+          "departs_at" : "2017-12-30T10:00",
+          "arrives_at" : "2017-12-30T15:25",
+          "origin" : {
+            "airport" : "SYD",
+            "terminal" : "1"
+          },
+          "destination" : {
+            "airport" : "BKK"
+          },
+          "marketing_airline" : "TG",
+          "operating_airline" : "TG",
+          "flight_number" : "476",
+          "aircraft" : "747",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "M",
+            "seats_remaining" : 9
+          }
+        }, {
+          "departs_at" : "2017-12-30T16:30",
+          "arrives_at" : "2017-12-30T20:30",
+          "origin" : {
+            "airport" : "BKK"
+          },
+          "destination" : {
+            "airport" : "DXB",
+            "terminal" : "1"
+          },
+          "marketing_airline" : "TG",
+          "operating_airline" : "TG",
+          "flight_number" : "517",
+          "aircraft" : "777",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "M",
+            "seats_remaining" : 9
+          }
+        } ]
+      }
+    } ],
+    "fare" : {
+      "total_price" : "6365.00",
+      "price_per_adult" : {
+        "total_fare" : "6365.00",
+        "tax" : "715.00"
+      },
+      "restrictions" : {
+        "refundable" : true,
+        "change_penalties" : false
+      }
+    }
+  }, {
+    "itineraries" : [ {
+      "outbound" : {
+        "flights" : [ {
+          "departs_at" : "2017-12-25T10:35",
+          "arrives_at" : "2017-12-25T21:50",
+          "origin" : {
+            "airport" : "DXB",
+            "terminal" : "3"
+          },
+          "destination" : {
+            "airport" : "KUL",
+            "terminal" : "M"
+          },
+          "marketing_airline" : "MH",
+          "operating_airline" : "EK",
+          "flight_number" : "4500",
+          "aircraft" : "388",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "L",
+            "seats_remaining" : 9
+          }
+        }, {
+          "departs_at" : "2017-12-25T23:40",
+          "arrives_at" : "2017-12-26T10:55",
+          "origin" : {
+            "airport" : "KUL",
+            "terminal" : "M"
+          },
+          "destination" : {
+            "airport" : "SYD",
+            "terminal" : "1"
+          },
+          "marketing_airline" : "MH",
+          "operating_airline" : "MH",
+          "flight_number" : "123",
+          "aircraft" : "333",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "L",
+            "seats_remaining" : 9
+          }
+        } ]
+      },
+      "inbound" : {
+        "flights" : [ {
+          "departs_at" : "2017-12-30T22:15",
+          "arrives_at" : "2017-12-31T03:50",
+          "origin" : {
+            "airport" : "SYD",
+            "terminal" : "1"
+          },
+          "destination" : {
+            "airport" : "KUL",
+            "terminal" : "M"
+          },
+          "marketing_airline" : "MH",
+          "operating_airline" : "MH",
+          "flight_number" : "140",
+          "aircraft" : "333",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "K",
+            "seats_remaining" : 1
+          }
+        }, {
+          "departs_at" : "2017-12-31T10:15",
+          "arrives_at" : "2017-12-31T13:20",
+          "origin" : {
+            "airport" : "KUL",
+            "terminal" : "M"
+          },
+          "destination" : {
+            "airport" : "DXB",
+            "terminal" : "3"
+          },
+          "marketing_airline" : "MH",
+          "operating_airline" : "EK",
+          "flight_number" : "4503",
+          "aircraft" : "777",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "K",
+            "seats_remaining" : 9
+          }
+        } ]
+      }
+    } ],
+    "fare" : {
+      "total_price" : "7125.00",
+      "price_per_adult" : {
+        "total_fare" : "7125.00",
+        "tax" : "515.00"
+      },
+      "restrictions" : {
+        "refundable" : false,
+        "change_penalties" : true
+      }
+    }
+  }, {
+    "itineraries" : [ {
+      "outbound" : {
+        "flights" : [ {
+          "departs_at" : "2017-12-25T21:20",
+          "arrives_at" : "2017-12-26T10:50",
+          "origin" : {
+            "airport" : "DXB",
+            "terminal" : "1"
+          },
+          "destination" : {
+            "airport" : "ICN"
+          },
+          "marketing_airline" : "KE",
+          "operating_airline" : "KE",
+          "flight_number" : "952",
+          "aircraft" : "772",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "U",
+            "seats_remaining" : 9
+          }
+        }, {
+          "departs_at" : "2017-12-26T18:45",
+          "arrives_at" : "2017-12-27T06:55",
+          "origin" : {
+            "airport" : "ICN"
+          },
+          "destination" : {
+            "airport" : "SYD",
+            "terminal" : "1"
+          },
+          "marketing_airline" : "KE",
+          "operating_airline" : "KE",
+          "flight_number" : "121",
+          "aircraft" : "388",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "U",
+            "seats_remaining" : 9
+          }
+        } ]
+      },
+      "inbound" : {
+        "flights" : [ {
+          "departs_at" : "2017-12-30T09:00",
+          "arrives_at" : "2017-12-30T17:40",
+          "origin" : {
+            "airport" : "SYD",
+            "terminal" : "1"
+          },
+          "destination" : {
+            "airport" : "ICN"
+          },
+          "marketing_airline" : "KE",
+          "operating_airline" : "KE",
+          "flight_number" : "122",
+          "aircraft" : "388",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "S",
+            "seats_remaining" : 9
+          }
+        }, {
+          "departs_at" : "2017-12-30T23:50",
+          "arrives_at" : "2017-12-31T05:00",
+          "origin" : {
+            "airport" : "ICN"
+          },
+          "destination" : {
+            "airport" : "DXB",
+            "terminal" : "3"
+          },
+          "marketing_airline" : "KE",
+          "operating_airline" : "EK",
+          "flight_number" : "5951",
+          "aircraft" : "388",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "S",
+            "seats_remaining" : 8
+          }
+        } ]
+      }
+    } ],
+    "fare" : {
+      "total_price" : "7275.00",
+      "price_per_adult" : {
+        "total_fare" : "7275.00",
+        "tax" : "1275.00"
+      },
+      "restrictions" : {
+        "refundable" : true,
+        "change_penalties" : true
+      }
+    }
+  }, {
+    "itineraries" : [ {
+      "outbound" : {
+        "flights" : [ {
+          "departs_at" : "2017-12-25T19:30",
+          "arrives_at" : "2017-12-25T20:50",
+          "origin" : {
+            "airport" : "XNB"
+          },
+          "destination" : {
+            "airport" : "AUH",
+            "terminal" : "1"
+          },
+          "marketing_airline" : "VA",
+          "operating_airline" : "EY",
+          "flight_number" : "7196",
+          "aircraft" : "BUS",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "L",
+            "seats_remaining" : 4
+          }
+        }, {
+          "departs_at" : "2017-12-25T22:25",
+          "arrives_at" : "2017-12-26T19:35",
+          "origin" : {
+            "airport" : "AUH",
+            "terminal" : "3"
+          },
+          "destination" : {
+            "airport" : "SYD",
+            "terminal" : "1"
+          },
+          "marketing_airline" : "VA",
+          "operating_airline" : "EY",
+          "flight_number" : "7092",
+          "aircraft" : "380",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "L",
+            "seats_remaining" : 4
+          }
+        } ]
+      },
+      "inbound" : {
+        "flights" : [ {
+          "departs_at" : "2017-12-30T21:50",
+          "arrives_at" : "2017-12-31T05:40",
+          "origin" : {
+            "airport" : "SYD",
+            "terminal" : "1"
+          },
+          "destination" : {
+            "airport" : "AUH",
+            "terminal" : "3"
+          },
+          "marketing_airline" : "VA",
+          "operating_airline" : "EY",
+          "flight_number" : "7093",
+          "aircraft" : "380",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "N",
+            "seats_remaining" : 4
+          }
+        }, {
+          "departs_at" : "2017-12-31T07:30",
+          "arrives_at" : "2017-12-31T08:50",
+          "origin" : {
+            "airport" : "AUH",
+            "terminal" : "1"
+          },
+          "destination" : {
+            "airport" : "XNB"
+          },
+          "marketing_airline" : "VA",
+          "operating_airline" : "EY",
+          "flight_number" : "7142",
+          "aircraft" : "BUS",
+          "booking_info" : {
+            "travel_class" : "ECONOMY",
+            "booking_code" : "N",
+            "seats_remaining" : 4
+          }
+        } ]
+      }
+    } ],
+    "fare" : {
+      "total_price" : "7595.00",
+      "price_per_adult" : {
+        "total_fare" : "7595.00",
+        "tax" : "1975.00"
+      },
+      "restrictions" : {
+        "refundable" : false,
+        "change_penalties" : true
+      }
+    }
+  } ]
+}

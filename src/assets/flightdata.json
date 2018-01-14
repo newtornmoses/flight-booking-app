@@ -1,0 +1,260 @@
+{
+    "currency": "USD",
+    "results": [{
+        "itineraries": [{
+            "outbound": {
+                "flights": [{
+                    "departs_at": "2017-12-25T17:55",
+                    "arrives_at": "2017-12-25T19:30",
+                    "origin": {
+                        "airport": "IST",
+                        "terminal": "I"
+                    },
+                    "destination": {
+                        "airport": "AMS"
+                    },
+                    "marketing_airline": "KL",
+                    "operating_airline": "KL",
+                    "flight_number": "1614",
+                    "aircraft": "73W",
+                    "booking_info": {
+                        "travel_class": "ECONOMY",
+                        "booking_code": "L",
+                        "seats_remaining": 9
+                    }
+                }, {
+                    "departs_at": "2017-12-26T10:30",
+                    "arrives_at": "2017-12-26T12:50",
+                    "origin": {
+                        "airport": "AMS"
+                    },
+                    "destination": {
+                        "airport": "BOS",
+                        "terminal": "E"
+                    },
+                    "marketing_airline": "KL",
+                    "operating_airline": "DL",
+                    "flight_number": "6017",
+                    "aircraft": "333",
+                    "booking_info": {
+                        "travel_class": "ECONOMY",
+                        "booking_code": "R",
+                        "seats_remaining": 9
+                    }
+                }]
+            },
+            "inbound": {
+                "flights": [{
+                    "departs_at": "2017-12-30T19:35",
+                    "arrives_at": "2017-12-31T11:30",
+                    "origin": {
+                        "airport": "BOS",
+                        "terminal": "A"
+                    },
+                    "destination": {
+                        "airport": "AMS"
+                    },
+                    "marketing_airline": "KL",
+                    "operating_airline": "DL",
+                    "flight_number": "6016",
+                    "aircraft": "333",
+                    "booking_info": {
+                        "travel_class": "ECONOMY",
+                        "booking_code": "R",
+                        "seats_remaining": 9
+                    }
+                }, {
+                    "departs_at": "2017-12-31T11:30",
+                    "arrives_at": "2017-12-31T16:55",
+                    "origin": {
+                        "airport": "AMS"
+                    },
+                    "destination": {
+                        "airport": "IST",
+                        "terminal": "I"
+                    },
+                    "marketing_airline": "KL",
+                    "operating_airline": "KL",
+                    "flight_number": "1613",
+                    "aircraft": "73W",
+                    "booking_info": {
+                        "travel_class": "ECONOMY",
+                        "booking_code": "L",
+                        "seats_remaining": 9
+                    }
+                }]
+            }
+        }],
+        "fare": {
+            "total_price": "461.54",
+            "price_per_adult": {
+                "total_fare": "461.54",
+                "tax": "358.54"
+            },
+            "restrictions": {
+                "refundable": false,
+                "change_penalties": true
+            }
+        }
+    }, {
+        "itineraries": [{
+            "outbound": {
+                "flights": [{
+                    "departs_at": "2017-12-25T11:50",
+                    "arrives_at": "2017-12-25T13:40",
+                    "origin": {
+                        "airport": "IST",
+                        "terminal": "D"
+                    },
+                    "destination": {
+                        "airport": "CDG",
+                        "terminal": "2C"
+                    },
+                    "marketing_airline": "AF",
+                    "operating_airline": "KK",
+                    "flight_number": "5089",
+                    "aircraft": "321",
+                    "booking_info": {
+                        "travel_class": "ECONOMY",
+                        "booking_code": "L",
+                        "seats_remaining": 9
+                    }
+                }, {
+                    "departs_at": "2017-12-25T15:35",
+                    "arrives_at": "2017-12-25T17:40",
+                    "origin": {
+                        "airport": "CDG",
+                        "terminal": "2E"
+                    },
+                    "destination": {
+                        "airport": "BOS",
+                        "terminal": "E"
+                    },
+                    "marketing_airline": "AF",
+                    "operating_airline": "AF",
+                    "flight_number": "334",
+                    "aircraft": "789",
+                    "booking_info": {
+                        "travel_class": "ECONOMY",
+                        "booking_code": "R",
+                        "seats_remaining": 9
+                    }
+                }]
+            },
+            "inbound": {
+                "flights": [{
+                    "departs_at": "2017-12-30T19:10",
+                    "arrives_at": "2017-12-31T08:15",
+                    "origin": {
+                        "airport": "BOS",
+                        "terminal": "A"
+                    },
+                    "destination": {
+                        "airport": "CDG",
+                        "terminal": "2E"
+                    },
+                    "marketing_airline": "AF",
+                    "operating_airline": "DL",
+                    "flight_number": "3663",
+                    "aircraft": "76W",
+                    "booking_info": {
+                        "travel_class": "ECONOMY",
+                        "booking_code": "R",
+                        "seats_remaining": 9
+                    }
+                }, {
+                    "departs_at": "2017-12-31T12:30",
+                    "arrives_at": "2017-12-31T18:00",
+                    "origin": {
+                        "airport": "CDG",
+                        "terminal": "2E"
+                    },
+                    "destination": {
+                        "airport": "IST",
+                        "terminal": "I"
+                    },
+                    "marketing_airline": "AF",
+                    "operating_airline": "AF",
+                    "flight_number": "1890",
+                    "aircraft": "319",
+                    "booking_info": {
+                        "travel_class": "ECONOMY",
+                        "booking_code": "L",
+                        "seats_remaining": 9
+                    }
+                }]
+            }
+        }],
+        "fare": {
+            "total_price": "462.18",
+            "price_per_adult": {
+                "total_fare": "462.18",
+                "tax": "359.18"
+            },
+            "restrictions": {
+                "refundable": true,
+                "change_penalties": true
+            }
+        }
+    }, {
+        "itineraries": [{
+            "outbound": {
+                "flights": [{
+                    "departs_at": "2017-12-25T15:45",
+                    "arrives_at": "2017-12-25T18:50",
+                    "origin": {
+                        "airport": "IST",
+                        "terminal": "I"
+                    },
+                    "destination": {
+                        "airport": "BOS",
+                        "terminal": "E"
+                    },
+                    "marketing_airline": "TK",
+                    "operating_airline": "TK",
+                    "flight_number": "81",
+                    "aircraft": "333",
+                    "booking_info": {
+                        "travel_class": "ECONOMY",
+                        "booking_code": "P",
+                        "seats_remaining": 9
+                    }
+                }]
+            },
+            "inbound": {
+                "flights": [{
+                    "departs_at": "2017-12-30T22:30",
+                    "arrives_at": "2017-12-31T16:00",
+                    "origin": {
+                        "airport": "BOS",
+                        "terminal": "E"
+                    },
+                    "destination": {
+                        "airport": "IST",
+                        "terminal": "I"
+                    },
+                    "marketing_airline": "TK",
+                    "operating_airline": "TK",
+                    "flight_number": "82",
+                    "aircraft": "333",
+                    "booking_info": {
+                        "travel_class": "ECONOMY",
+                        "booking_code": "V",
+                        "seats_remaining": 9
+                    }
+                }]
+            }
+        }],
+        "fare": {
+            "total_price": "621.56",
+            "price_per_adult": {
+                "total_fare": "621.56",
+                "tax": "343.56"
+            },
+            "restrictions": {
+                "refundable": false,
+                "change_penalties": true
+            }
+        }
+    }]
+}

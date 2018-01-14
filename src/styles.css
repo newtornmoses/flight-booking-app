@@ -1,0 +1,319 @@
+/* You can add global styles to this file, and also import other style files */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.nav {
+    z-index: 2000;
+    position: fixed;
+    color: white;
+    height: 50px;
+    width: 100%;
+    background: rgba(135, 155, 153, 0.582);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.787);
+}
+
+.nav ul li {
+    display: inline-block;
+    margin: 10px 0px 0px 40px;
+    font-size: 14px;
+    padding: 10px
+}
+
+.nav ul li a {
+    color: white;
+}
+
+.nav ul li a:hover {
+    color: rgb(121, 188, 214);
+    cursor: pointer;
+}
+
+.heading {
+    position: absolute;
+    top: 20%;
+    left: 43%;
+    color: white;
+}
+
+.heading h4:nth-child(2) {
+    position: absolute;
+    tp: 20%;
+    left: 5%;
+}
+
+ul li {
+    list-style: none;
+}
+
+.header {
+    width: 100%;
+    height: 90vh;
+    bacground: linear-gradient(rgba(0, 0, 0, 0.589), rgba(0, 0, 0, 0.4)), url("assets/images/plane background.jpg");
+    background: linear-gradient(rgba(7, 7, 7, 0.356), rgba(8, 8, 8, 0.342)), url("assets/images/plane (2).jpg");
+    background: url("assets/images/plane background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.background {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+    size: cover;
+}
+
+.building {
+    width: 100%;
+    position: absolute;
+    left: 8.5%;
+    top: 2%;
+    transform: translate(8%);
+    z-index: 1000;
+}
+
+@media (max-width:1280px) {
+    .header {
+        width: 100%;
+        height: 90vh;
+        background: url("assets/images/plane (1).jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .header .plane {
+        display: none;
+    }
+}
+
+.header .plane {
+    height: auto;
+    position: absolute;
+    transform: rotate(30deg) translateY(160px);
+    animation: plane 12s linear infinite;
+}
+
+@keyframes plane {
+    0% {
+        opacity: 0;
+        transform: rotate(20deg) translateY(100px) translateX(120px);
+        transition: all 4s linear;
+    }
+    10% {
+        opacity: 1;
+        transition: opacity 8s ease-in-out;
+    }
+    60% {
+        opacity: 0.2;
+    }
+    100% {
+        transform: rotate(30deg) translateY(-520px) translateX(200px);
+        opacity: 0;
+    }
+}
+
+.inputs label {
+    color: white;
+}
+
+.inputs {
+    width: 100%;
+    padding: 5% 0% 0% 0%;
+    min-height: 200px;
+    background: rgb(48, 132, 163);
+}
+
+.title {
+    display: none;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+.flights {
+    clor: rgb(192, 191, 191);
+    min-height: 700vh;
+    width: 100wh;
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.883), rgba(0, 0, 0, 0.4)), url("assets/images/plane (5).jpg");
+    background: linear-gradient(rgba(7, 7, 7, 0.637), rgba(8, 8, 8, 0.609)), url("assets/images/plane (7).jpg");
+    background-size: auto;
+    padding: 5% 0% 0% 0%;
+}
+
+.showinfo {
+    margin: 0;
+    padding: 0;
+}
+
+.flightnav {
+    position: relative;
+    left: 50%;
+    bottom: 20%;
+}
+
+.otherinfo {
+    z-index: 1000;
+    color: black;
+    background: rgb(33, 33, 48);
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.otherinfo h3 {
+    font-size: 17px;
+    color: rgb(182, 180, 180);
+}
+
+.booking {
+    background: rgb(184, 181, 181);
+    background: rgb(223, 222, 222);
+    padding: 0px 5px 0px 5px;
+}
+
+.booking h2,
+h3 {
+    font-size: 16px;
+    color: rgb(61, 61, 61);
+}
+
+p.heading {
+    font-weight: bold;
+    margin-right: -10%;
+    color: white
+}
+
+.flights .icon {
+    transform: scale(0.4);
+    padding: 0px;
+    margin-bottom: -85px;
+    margin-left: 60px;
+    margin-top: -85px;
+}
+
+.feed h2 {
+    font-size: 18px;
+}
+
+.view {
+    margin-top: 3%;
+}
+
+.price::after {
+    content: ' ';
+    display: block;
+    width: 200px;
+    height: 1px;
+    background: grey;
+}
+
+.feed {
+    margin: 0px 40px 40px 40px;
+}
+
+.flightpannel h3,
+.flightpannel2 h3 {
+    font-size: 17px;
+    color: rgb(8, 73, 104);
+    color: rgb(11, 11, 12);
+}
+
+.flightpannel small {
+    color: rgb(56, 162, 211);
+}
+
+.flightpannel small::before {
+    color: white
+}
+
+.flightpannel {
+    background: rgba(114, 47, 47, 0.294);
+    background: rgba(61, 19, 19, 0.294);
+    background: rgba(73, 67, 67, 0.294);
+    background: rgba(122, 118, 118, 0.082);
+    border: 1px solid rgba(178, 240, 245, 0.424);
+    background: rgba(94, 45, 45, 0.74);
+    background: rgba(3, 31, 48, 0.644);
+    background: rgba(34, 100, 136, 0.644);
+    background: linear-gradient(rgba(34, 82, 136, 0.644) 80%, rgba(136, 138, 138, 0.89));
+    box-shadow: 2px 2px 4px black;
+}
+
+.flightpannel2 {
+    background: rgba(114, 47, 47, 0.294);
+    background: rgba(61, 19, 19, 0.294);
+    background: rgba(73, 67, 67, 0.294);
+    background: rgba(122, 118, 118, 0.082);
+    border: 1px solid rgba(178, 240, 245, 0.424);
+    background: rgba(94, 45, 45, 0.74);
+    bacground: rgba(3, 31, 48, 0.644);
+    bakground: rgba(34, 100, 136, 0.644);
+    bakground: linear-gradient(rgba(34, 82, 136, 0.644) 80%, rgba(136, 138, 138, 0.89));
+    box-shadow: 2px 2px 4px black;
+}
+
+.load {
+    width: 100%;
+    height: auto;
+    color: white;
+    margin: 0% 0% 0% 40%
+}
+
+.noload {
+    width: 100%;
+    height: auto;
+    color: white;
+}
+
+.turbo {
+    bckground: rgb(43, 43, 43);
+    color: black;
+}
+
+.turbo img {
+    trasform: scale(1.9);
+}
+
+.noload img {
+    position: relative;
+    width: 8%;
+    height: auto;
+}
+
+.loading {
+    position: absolute;
+    z-index: 1000;
+    background: none;
+    margin-bottom: 20px;
+}
+
+.load img {
+    position: relative;
+    width: 8%;
+    height: auto;
+    animation: turbo 0.3s linear infinite;
+}
+
+@keyframes turbo {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.footer {
+    color: white;
+    width: 100%;
+    height: 200px;
+    background: grey;
+}

@@ -1,0 +1,311 @@
+<!-- header -->
+<section class="header ">
+    <!-- navigation -->
+    <div appScrollheader class="nav">
+        <ul>
+            <li>
+                <h4 class="title" appShowtitle>TRAVEL FINDER</h4>
+            </li>
+            <li>
+                <a href="# "><i class="fa fa-home "></i> Home</a></li>
+
+            <li> <a href="# "><i class="fa fa-car "></i> Car Rental</a></li>
+            <li> <a href="# "><i class="fa fa-hotel "></i> Hotels</a></li>
+
+
+
+            <li>
+                <a href="# "><i class="fa fa-user-o "></i> About us</a></li>
+
+
+        </ul>
+    </div>
+    <div class="col-md-12 heading ">
+        <h1>TRAVEL FINDER</h1>
+        <h4> <i class="fa fa-search "></i> Your Search Starts Here </h4>
+    </div>
+
+    <div class="col-md-12 ">
+        <img class="img-responsive building " src="../../assets/images/buiding.png " alt=" ">
+
+        <img class="img-responsive plane " src="../../assets/images/planeforeground.png " alt=" ">
+        <img class="img-responsive background " src="../../assts/images/plane background.jpg " alt=" ">
+    </div>
+</section>
+
+<!-- input section -->
+<section appFixsearchpannel class="inputs ">
+    <div class="container ">
+        <div class="row ">
+            <div class="col-xs-4 col-sm-2  col-md-3 ">
+                <label for="destination ">From:</label>
+
+                <input type="text " name="from " [(ngModel)]="form.from " class="form-control " placeholder="country from " id=" ">
+            </div>
+            <div class="col-xs-4 col-sm-2 col-md-3 ">
+                <label for="destination ">Destination:</label>
+                <input type="text " name="destination " [(ngModel)]="form.destination " class="form-control " placeholder="Destination country " id=" ">
+
+            </div>
+
+            <div class="col-xs-4 col-sm-4 col-md-2 ">
+                <label for="destination ">Departure date:</label>
+                <input type="text " name="departure " [(ngModel)]="form.departure " class="form-control " placeholder="Departure date " value="2017-12-25 ">
+
+            </div>
+
+            <div class="col-xs-4 col-sm-2 col-md-2 ">
+                <label for="destination ">Return date:</label>
+                <input type="text " name="return " [(ngModel)]="form.return " class="form-control " placeholder="Return date " value="2017-12-30 " id="datepicker">
+
+            </div>
+            <div class="col-xs-4 col-sm-2 col-md-2 ">
+                <label for="destination ">Price:</label>
+                <input type="text " name="price " class="form-control " placeholder="price">
+
+            </div>
+
+            <div class="col-xs-12 col-md-4  col-sm-offset-5 col-md-offset-5  btn">
+                <button (click)="searchflight($event)" type="submit " class="btn btn-warning ">Get Flights</button>
+            </div>
+        </div>
+    </div>
+    <!-- progress ux ui -->
+    <div class="container loading ">
+        <div class="col-md-12 turbo ">
+            <div *ngIf=" !newfeed.length> 0" class="load">
+                <div class="col-md-12">
+                    <h4> <img class="loadimg" src="../../assets/images/jet-engine.png" alt=""> Loading flight data from database plz wait.....</h4>
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<!-- flights feed -->
+<section class="flights">
+
+    <div class="col-md-12">
+        <ul class="col-md-12 " *ngFor="let results of newfeed; let i = index;">
+            <li>
+
+                <ul *ngFor="let itineraries of results.itineraries; let i = index;">
+
+                    <li>
+
+                        <ul class=" list-group" *ngFor="let flights of itineraries.outbound.flights; let i = index;">
+
+                            <li class='feed'>
+                                <div class="flightnav">
+                                    <a class="btn btn-success">Departure</a>
+                                    <!-- <a class="btn btn-primary">Return</a> -->
+
+                                </div>
+
+
+                                <div syle="background:rgb(88, 18, 18)" class=" col-md-12 flightpannel">
+                                    <div class="col-md-6">
+                                        <h3 class="list-group-items">Origin:
+                                            <small>{{flights.origin.airport}}</small>
+                                        </h3>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <h3 class="list-group-items">Destination:
+                                            <small>{{flights.destination.airport}}</small>
+                                        </h3>
+                                    </div>
+
+                                    <div class="col-md-4">
+
+                                        <h3 class="list-group-item">Departs At:
+                                            <small>{{flights.departs_at}}</small>
+                                        </h3>
+                                    </div>
+
+                                    <div class="col-md-4">
+
+                                        <h3 class="list-group-item">Arrives At:
+                                            <small>{{flights.arrives_at}}</small>
+                                        </h3>
+                                    </div>
+
+                                    <div class="col-md-4">
+
+                                        <h3 class="list-group-item">Operating Airline:
+                                            <small>{{flights.operating_airline}}</small>
+                                        </h3>
+                                    </div>
+                                    <div class="col-md-4 col-md-offset-4">
+
+                                        <h5 class="list-group-item list-group-item-success price">Total Price: {{results.fare.total_price}} {{currency}}</h5>
+                                    </div>
+                                    <div class="col-md-4">
+
+                                        <a *ngIf="showmore" (click)="showdetails()" class="btn btn-success view">View More Details</a>
+                                        <a *ngIf="showfew" (click)="showless()" class="btn btn-success view">Few Details</a>
+
+                                    </div>
+
+                                </div>
+
+                                <div *ngIf="showinfo" class="col-md-8 showinfo">
+                                    <div class="col-md-12 otherinfo">
+                                        <div class="col-md-3">
+                                            <h3>Aircraft:
+                                                <small>{{flights.aircraft}}</small>
+                                            </h3>
+                                        </div>
+                                        <div class="col-md-3">
+
+                                            <h3>Flight No:
+                                                <small>{{flights.flight_number}}</small>
+                                            </h3>
+                                        </div>
+
+                                        <div class="col-md-3">
+
+                                            <h3>Terminal:
+                                                <small>{{flights.origin.terminal}}</small>
+                                            </h3>
+                                        </div>
+                                        <div class="col-md-3">
+
+                                            <h3>Marketing Airline:
+                                                <small>{{flights.marketing_airline}}</small>
+                                            </h3>
+                                        </div>
+                                    </div>
+
+                                    <div class="alert-danger  booking">
+                                        <h2>
+                                            <u>BOOKING INFO</u>
+                                        </h2>
+                                        <h3>Booking Code:
+                                            <small>{{flights.booking_info.booking_code}}</small>
+                                        </h3>
+                                        <h3>Seats Remaining:
+                                            <small>{{flights.booking_info.seats_remaining}}</small>
+                                        </h3>
+                                        <h3>Travel Class:
+                                            <small>{{flights.booking_info.travel_class}}</small>
+                                        </h3>
+                                    </div>
+                                </div>
+
+                            </li>
+                        </ul>
+
+                        <!-- inbound flights -->
+
+                        <ul class=" list-group" *ngFor="let flights of itineraries.inbound.flights; let i = index;">
+
+                            <li class='feed2'>
+                                <div class="flightnav">
+                                    <!-- <a class="btn btn-success">Departure</a> -->
+                                    <a class="btn btn-primary">Return</a>
+
+                                </div>
+                                <div syle="background:rgb(88, 18, 18)" class=" col-md-12 flightpannel2">
+                                    <div class="col-md-6">
+                                        <h3 class="list-group-items">Origin:
+                                            <small>{{flights.origin.airport}}</small>
+                                        </h3>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <h3 class="list-group-items">Destination:
+                                            <small>{{flights.destination.airport}}</small>
+                                        </h3>
+                                    </div>
+
+                                    <div class="col-md-4">
+
+                                        <h3 class="list-group-item">Departs At:
+                                            <small>{{flights.departs_at}}</small>
+                                        </h3>
+                                    </div>
+
+                                    <div class="col-md-4">
+
+                                        <h3 class="list-group-item">Arrives At:
+                                            <small>{{flights.arrives_at}}</small>
+                                        </h3>
+                                    </div>
+
+                                    <div class="col-md-4">
+
+                                        <h3 class="list-group-item">Operating Airline:
+                                            <small>{{flights.operating_airline}}</small>
+                                        </h3>
+                                    </div>
+                                    <div class="col-md-4">
+
+                                        <a *ngIf="showmore" (click)="showdetails(i)" class="btn btn-success view">View More Details</a>
+                                        <a *ngIf="showfew" (click)="showless(i)" class="btn btn-success view">Few Details</a>
+
+                                    </div>
+
+                                </div>
+
+                                <div *ngIf="showinfo" class="col-md-8 showinfo">
+                                    <div class="col-md-12 otherinfo">
+                                        <div class="col-md-3">
+                                            <h3>Aircraft:
+                                                <small>{{flights.aircraft}}</small>
+                                            </h3>
+                                        </div>
+                                        <div class="col-md-3">
+
+                                            <h3>Flight No:
+                                                <small>{{flights.flight_number}}</small>
+                                            </h3>
+                                        </div>
+
+                                        <div class="col-md-3">
+
+                                            <h3>Terminal:
+                                                <small>{{flights.origin.terminal}}</small>
+                                            </h3>
+                                        </div>
+                                        <div class="col-md-3">
+
+                                            <h3>Marketing Airline:
+                                                <small>{{flights.marketing_airline}}</small>
+                                            </h3>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                            </li>
+                        </ul>
+
+
+
+
+
+
+                    </li>
+                </ul>
+
+            </li>
+        </ul>
+    </div>
+
+
+</section>
+
+
+<!-- footer -->
+<section class="footer">
+
+
+</section>
